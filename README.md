@@ -24,6 +24,7 @@ cd JojoToken
 Install dependencies:
     npm install
 Ensure you have a valid Ethereum blockchain setup, or you can use a testnet such as Rinkeby.
+
 **Modifications**
   
 To change the initial supply, you can modify the _mint function within the constructor of the JojoToken.sol file.
@@ -31,6 +32,7 @@ To change the initial supply, you can modify the _mint function within the const
 solidity
 Copy code
 _mint(msg.sender, 1000 * 10**uint(decimals())); // Modify 1000 to any initial supply you desire
+
 **Executing Program**
 
 Deploy the contract
@@ -51,6 +53,7 @@ Run the help command to see available options:
 
     
 **Authors**
+
 Name - Johnycrown
 Email: oladejijohn60@gmail.com
 
