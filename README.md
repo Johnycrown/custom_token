@@ -48,9 +48,13 @@ Gas limit issues: If your transaction fails due to an out-of-gas error, consider
 
 Run the help command to see available options:
     npx hardhat help
-Authors
+
+    
+**Authors**
 Name - Johnycrown
 Email: oladejijohn60@gmail.com
-License
+
+**License**
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
