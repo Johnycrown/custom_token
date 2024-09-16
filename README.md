@@ -37,8 +37,11 @@ _mint(msg.sender, 1000 * 10**uint(decimals())); // Modify 1000 to any initial su
 
 Deploy the contract
 Compile the smart contract:
+
     npx hardhat compile
+    
 Deploy the contract to a local or testnet blockchain:
+
     npx hardhat run scripts/deploy.js --network rinkeby
 
 **Help**
